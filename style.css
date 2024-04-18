@@ -10,6 +10,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .navbar-logo {
@@ -25,6 +27,7 @@ body {
   display: flex;
   justify-content: center;
   flex-grow: 1;
+  padding-left: 200px;
 }
 
 .navbar-center a {
@@ -33,24 +36,39 @@ body {
   padding: 15px;
 }
 
-.navbar-right {
+/* .navbar-right {
   padding: 15px;
-}
+  
+} */
 
 .navbar-button {
   background-color: #004652;
   color: white;
+  /* margin-left: 20px; */
   padding: 10px 20px;
   border: none;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   font-size: 16px;
   cursor: pointer;
+  /* line-height: 2; */
 }
+#b1 {
+  margin-left: 20px;
+
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding-right: 0px !important;
+}
+#b2{
+  padding-left: 0px !important;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
 
 .navbar-button:hover {
   background-color: #7ad1a1;
 }
-
 
 /* Add active state for navbar items */
 .navbar-center a.active {
@@ -69,3 +87,8 @@ body {
   border-radius: 60%;
 }
 
+#phne-msge {
+  height: 23px;
+  width: 23px;
+  margin-right: 10px;
+}
